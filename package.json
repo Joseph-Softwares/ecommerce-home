@@ -1,9 +1,12 @@
 {
   "scripts": {
+    "dev": "vite",
     "build": "vite build",
-    "start": "vite",
-    "dev": "vite --force"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
+  "homepage": "https://Joseph-Softwares.github.io/ecommerce-home/",
   "dependencies": {
     "@gsap/react": "^2.1.1",
     "@react-three/cannon": "^6.6.0",
@@ -19,6 +22,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.3.4",
+    "gh-pages": "^6.3.0",
     "vite": "^6.2.1"
   }
 }
