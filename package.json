@@ -1,0 +1,24 @@
+{
+  "scripts": {
+    "build": "vite build",
+    "start": "vite",
+    "dev": "vite --force"
+  },
+  "dependencies": {
+    "@gsap/react": "^2.1.1",
+    "@react-three/cannon": "^6.6.0",
+    "@react-three/drei": "^9.85.2",
+    "@react-three/fiber": "^8.18.0",
+    "@react-three/gltfjsx": "^4.3.4",
+    "@react-three/postprocessing": "^2.6.1",
+    "gsap": "^3.12.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-spring": "^9.7.5",
+    "three": "^0.152.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^6.2.1"
+  }
+}
